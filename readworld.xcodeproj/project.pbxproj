@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444B09722C99511D0041C419 /* readworldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B09712C99511D0041C419 /* readworldApp.swift */; };
+		444B09742C99511D0041C419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B09732C99511D0041C419 /* ContentView.swift */; };
+		444B09762C99511F0041C419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444B09752C99511F0041C419 /* Assets.xcassets */; };
+		444B09792C99511F0041C419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444B09782C99511F0041C419 /* Preview Assets.xcassets */; };
+		444B09802C9951940041C419 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B097F2C9951940041C419 /* LoginView.swift */; };
+		444B09862C99A4D20041C419 /* BookstoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B09852C99A4D20041C419 /* BookstoreView.swift */; };
+		4461FF842CA58D21000F3FE2 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461FF832CA58D21000F3FE2 /* RegisterView.swift */; };
+		4461FF862CA5971E000F3FE2 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461FF852CA5971E000F3FE2 /* Authentication.swift */; };
+		4485A0E82CA68BE300CEDB33 /* ReadhistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A0E72CA68BE300CEDB33 /* ReadhistoryView.swift */; };
+		4485A0EA2CA68E0200CEDB33 /* EditprofileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A0E92CA68E0200CEDB33 /* EditprofileView.swift */; };
+		4485A0EC2CA6996C00CEDB33 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A0EB2CA6996C00CEDB33 /* CatalogView.swift */; };
+		4485A0EE2CA6A6A200CEDB33 /* ChapterquizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A0ED2CA6A6A200CEDB33 /* ChapterquizView.swift */; };
+		4485A0F02CA6A74E00CEDB33 /* ChapterquizdetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A0EF2CA6A74E00CEDB33 /* ChapterquizdetailView.swift */; };
+		4485A5382CA9195B00CEDB33 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A5372CA9195B00CEDB33 /* SettingView.swift */; };
+		4485A53A2CA91F6300CEDB33 /* BooksInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A5392CA91F6300CEDB33 /* BooksInformation.swift */; };
+		4485A53F2CA9A1B100CEDB33 /* The_Very_Hungry_Caterpillar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4485A53B2CA9A1B100CEDB33 /* The_Very_Hungry_Caterpillar.pdf */; };
+		4485A5402CA9A1B100CEDB33 /* The_Giving_Tree.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4485A53C2CA9A1B100CEDB33 /* The_Giving_Tree.pdf */; };
+		4485A5412CA9A1B100CEDB33 /* Charlotte's_Web.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4485A53D2CA9A1B100CEDB33 /* Charlotte's_Web.pdf */; };
+		4485A5422CA9A1B100CEDB33 /* Winnie_The_Pooh.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4485A53E2CA9A1B100CEDB33 /* Winnie_The_Pooh.pdf */; };
+		44915F102CACE709000F78C6 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44915F0F2CACE709000F78C6 /* ReaderView.swift */; };
+		44ADFEA82CA5FFAB000FA367 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFEA72CA5FFAB000FA367 /* HomeView.swift */; };
+		44ADFEAC2CA67A33000FA367 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFEAB2CA67A33000FA367 /* CategoriesView.swift */; };
+		44ADFEAE2CA6868B000FA367 /* BookshelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFEAD2CA6868B000FA367 /* BookshelfView.swift */; };
+		44ADFEB02CA687FD000FA367 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ADFEAF2CA687FD000FA367 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		444B096E2C99511D0041C419 /* readworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444B09712C99511D0041C419 /* readworldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readworldApp.swift; sourceTree = "<group>"; };
+		444B09732C99511D0041C419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		444B09752C99511F0041C419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		444B09782C99511F0041C419 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		444B097F2C9951940041C419 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		444B09852C99A4D20041C419 /* BookstoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookstoreView.swift; sourceTree = "<group>"; };
+		4461FF832CA58D21000F3FE2 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4461FF852CA5971E000F3FE2 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		4485A0E72CA68BE300CEDB33 /* ReadhistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadhistoryView.swift; sourceTree = "<group>"; };
+		4485A0E92CA68E0200CEDB33 /* EditprofileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditprofileView.swift; sourceTree = "<group>"; };
+		4485A0EB2CA6996C00CEDB33 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		4485A0ED2CA6A6A200CEDB33 /* ChapterquizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterquizView.swift; sourceTree = "<group>"; };
+		4485A0EF2CA6A74E00CEDB33 /* ChapterquizdetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterquizdetailView.swift; sourceTree = "<group>"; };
+		4485A5372CA9195B00CEDB33 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		4485A5392CA91F6300CEDB33 /* BooksInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksInformation.swift; sourceTree = "<group>"; };
+		4485A53B2CA9A1B100CEDB33 /* The_Very_Hungry_Caterpillar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = The_Very_Hungry_Caterpillar.pdf; sourceTree = "<group>"; };
+		4485A53C2CA9A1B100CEDB33 /* The_Giving_Tree.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = The_Giving_Tree.pdf; sourceTree = "<group>"; };
+		4485A53D2CA9A1B100CEDB33 /* Charlotte's_Web.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Charlotte's_Web.pdf"; sourceTree = "<group>"; };
+		4485A53E2CA9A1B100CEDB33 /* Winnie_The_Pooh.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Winnie_The_Pooh.pdf; sourceTree = "<group>"; };
+		44915F0F2CACE709000F78C6 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		44ADFEA72CA5FFAB000FA367 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44ADFEAB2CA67A33000FA367 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		44ADFEAD2CA6868B000FA367 /* BookshelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfView.swift; sourceTree = "<group>"; };
+		44ADFEAF2CA687FD000FA367 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444B096B2C99511D0041C419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444B09652C99511D0041C419 = {
+			isa = PBXGroup;
+			children = (
+				444B09702C99511D0041C419 /* readworld */,
+				444B096F2C99511D0041C419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		444B096F2C99511D0041C419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444B096E2C99511D0041C419 /* readworld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		444B09702C99511D0041C419 /* readworld */ = {
+			isa = PBXGroup;
+			children = (
+				4485A0F52CA7A84F00CEDB33 /* books */,
+				444B09712C99511D0041C419 /* readworldApp.swift */,
+				444B09732C99511D0041C419 /* ContentView.swift */,
+				444B097F2C9951940041C419 /* LoginView.swift */,
+				4461FF832CA58D21000F3FE2 /* RegisterView.swift */,
+				444B09852C99A4D20041C419 /* BookstoreView.swift */,
+				4461FF852CA5971E000F3FE2 /* Authentication.swift */,
+				44ADFEA72CA5FFAB000FA367 /* HomeView.swift */,
+				44ADFEAB2CA67A33000FA367 /* CategoriesView.swift */,
+				44ADFEAD2CA6868B000FA367 /* BookshelfView.swift */,
+				44ADFEAF2CA687FD000FA367 /* ProfileView.swift */,
+				4485A0E72CA68BE300CEDB33 /* ReadhistoryView.swift */,
+				4485A0E92CA68E0200CEDB33 /* EditprofileView.swift */,
+				4485A0EB2CA6996C00CEDB33 /* CatalogView.swift */,
+				4485A0ED2CA6A6A200CEDB33 /* ChapterquizView.swift */,
+				4485A0EF2CA6A74E00CEDB33 /* ChapterquizdetailView.swift */,
+				444B09752C99511F0041C419 /* Assets.xcassets */,
+				444B09772C99511F0041C419 /* Preview Content */,
+				4485A5372CA9195B00CEDB33 /* SettingView.swift */,
+				44915F0F2CACE709000F78C6 /* ReaderView.swift */,
+			);
+			path = readworld;
+			sourceTree = "<group>";
+		};
+		444B09772C99511F0041C419 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				444B09782C99511F0041C419 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4485A0F52CA7A84F00CEDB33 /* books */ = {
+			isa = PBXGroup;
+			children = (
+				4485A53D2CA9A1B100CEDB33 /* Charlotte's_Web.pdf */,
+				4485A53C2CA9A1B100CEDB33 /* The_Giving_Tree.pdf */,
+				4485A53B2CA9A1B100CEDB33 /* The_Very_Hungry_Caterpillar.pdf */,
+				4485A53E2CA9A1B100CEDB33 /* Winnie_The_Pooh.pdf */,
+				4485A5392CA91F6300CEDB33 /* BooksInformation.swift */,
+			);
+			path = books;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		444B096D2C99511D0041C419 /* readworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444B097C2C99511F0041C419 /* Build configuration list for PBXNativeTarget "readworld" */;
+			buildPhases = (
+				444B096A2C99511D0041C419 /* Sources */,
+				444B096B2C99511D0041C419 /* Frameworks */,
+				444B096C2C99511D0041C419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = readworld;
+			productName = readworld;
+			productReference = 444B096E2C99511D0041C419 /* readworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		444B09662C99511D0041C419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					444B096D2C99511D0041C419 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 444B09692C99511D0041C419 /* Build configuration list for PBXProject "readworld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 444B09652C99511D0041C419;
+			productRefGroup = 444B096F2C99511D0041C419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				444B096D2C99511D0041C419 /* readworld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444B096C2C99511D0041C419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4485A53F2CA9A1B100CEDB33 /* The_Very_Hungry_Caterpillar.pdf in Resources */,
+				444B09792C99511F0041C419 /* Preview Assets.xcassets in Resources */,
+				444B09762C99511F0041C419 /* Assets.xcassets in Resources */,
+				4485A5422CA9A1B100CEDB33 /* Winnie_The_Pooh.pdf in Resources */,
+				4485A5412CA9A1B100CEDB33 /* Charlotte's_Web.pdf in Resources */,
+				4485A5402CA9A1B100CEDB33 /* The_Giving_Tree.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444B096A2C99511D0041C419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4461FF862CA5971E000F3FE2 /* Authentication.swift in Sources */,
+				44915F102CACE709000F78C6 /* ReaderView.swift in Sources */,
+				4485A0EA2CA68E0200CEDB33 /* EditprofileView.swift in Sources */,
+				4485A53A2CA91F6300CEDB33 /* BooksInformation.swift in Sources */,
+				444B09802C9951940041C419 /* LoginView.swift in Sources */,
+				4485A5382CA9195B00CEDB33 /* SettingView.swift in Sources */,
+				444B09742C99511D0041C419 /* ContentView.swift in Sources */,
+				4485A0F02CA6A74E00CEDB33 /* ChapterquizdetailView.swift in Sources */,
+				44ADFEAE2CA6868B000FA367 /* BookshelfView.swift in Sources */,
+				4485A0E82CA68BE300CEDB33 /* ReadhistoryView.swift in Sources */,
+				4461FF842CA58D21000F3FE2 /* RegisterView.swift in Sources */,
+				4485A0EE2CA6A6A200CEDB33 /* ChapterquizView.swift in Sources */,
+				4485A0EC2CA6996C00CEDB33 /* CatalogView.swift in Sources */,
+				44ADFEAC2CA67A33000FA367 /* CategoriesView.swift in Sources */,
+				44ADFEA82CA5FFAB000FA367 /* HomeView.swift in Sources */,
+				444B09722C99511D0041C419 /* readworldApp.swift in Sources */,
+				44ADFEB02CA687FD000FA367 /* ProfileView.swift in Sources */,
+				444B09862C99A4D20041C419 /* BookstoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		444B097A2C99511F0041C419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		444B097B2C99511F0041C419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		444B097D2C99511F0041C419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"readworld/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julian.readworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		444B097E2C99511F0041C419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"readworld/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julian.readworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444B09692C99511D0041C419 /* Build configuration list for PBXProject "readworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B097A2C99511F0041C419 /* Debug */,
+				444B097B2C99511F0041C419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		444B097C2C99511F0041C419 /* Build configuration list for PBXNativeTarget "readworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444B097D2C99511F0041C419 /* Debug */,
+				444B097E2C99511F0041C419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 444B09662C99511D0041C419 /* Project object */;
+}
