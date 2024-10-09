@@ -64,7 +64,7 @@ struct ReaderView: View {
 
     // Load the PDF file
     func loadPDFDocument() {
-        if let fileURL = Bundle.main.url(forResource: bookTitle, withExtension: "pdf") {
+        if let fileURL = Bundle.main.url(forResource: bookTitle.replacingOccurrences(of: " ", with: "_"), withExtension: "pdf") {
             pdfDocument = PDFDocument(url: fileURL)
         } else {
             print("PDF file not found")
