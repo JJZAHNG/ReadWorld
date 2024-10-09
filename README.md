@@ -1,3 +1,4 @@
+![iphone](https://github.com/user-attachments/assets/3b155e5a-b610-4e0f-bda0-b9c5cc8610b9)
 # ReadWorld
 
 ReadWorld is an app designed to help individuals with reading difficulties track their reading progress while enhancing comprehension and enjoyment. After completing each chapter, the app generates a summary and provides a simple quiz with questions related to the chapter's content to reinforce understanding.
@@ -50,7 +51,7 @@ Once the app is installed and running, you can:
 ![ui_design1](https://github.com/user-attachments/assets/bc852383-b2f4-40fd-be3f-f730a5d24cff)
 ![ui_design2](https://github.com/user-attachments/assets/857e4dc4-a1a0-49d4-aea9-79dcc56f8212)
 ![ui_design3](https://github.com/user-attachments/assets/13aeabc3-d37d-4f2f-af34-3908cef73c93)
-![iphone](https://github.com/user-attachments/assets/3b155e5a-b610-4e0f-bda0-b9c5cc8610b9)
+
 
 
 ## Contributing
